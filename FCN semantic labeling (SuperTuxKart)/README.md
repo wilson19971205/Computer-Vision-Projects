@@ -28,9 +28,11 @@ Visualize the dense dataset:
 
 # Output
 Loss and Accuracy during training (CNN):
+
 ![train](training_cnn.png)
 
 Loss and Accuracy during training (FCN):
+
 ![train](training_fcn.png)
 
 Visualize the model's prediction:
