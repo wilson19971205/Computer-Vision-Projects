@@ -19,6 +19,6 @@ Loss and Accuracy during training:
 
 Visualize the model's prediction:
 ```python
-!python3 -m viz_prediction [DATASET_PATH]
+%run -m viz_prediction [DATASET_PATH]
 ```
 ![visualization](visualize_prediction.png)
