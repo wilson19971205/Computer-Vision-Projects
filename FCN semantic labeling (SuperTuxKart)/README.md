@@ -24,14 +24,14 @@ Visualize the dense dataset:
 ```python
 %run -m homework.utils
 ```
-![dense data](.png)
+![dense data](dense_data.png)
 
 # Output
 Loss and Accuracy during training (CNN):
-![train](train_cnn.png)
+![train](training_cnn.png)
 
 Loss and Accuracy during training (FCN):
-![train](train_fcn.png)
+![train](training_fcn.png)
 
 Visualize the model's prediction:
 ```python
