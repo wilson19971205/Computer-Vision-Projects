@@ -35,11 +35,6 @@ Loss and Accuracy during training (FCN):
 
 ![train](training_fcn.png)
 
-Visualize the model's prediction:
-```python
-%run -m viz_prediction [DATASET_PATH]
-```
-
 # Output
 Original image:
 
