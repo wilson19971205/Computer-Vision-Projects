@@ -26,7 +26,7 @@ Visualize the dense dataset:
 ```
 ![dense data](dense_dataset.png)
 
-# Output
+# Training
 Loss and Accuracy during training (CNN):
 
 ![train](training_cnn.png)
@@ -39,6 +39,8 @@ Visualize the model's prediction:
 ```python
 %run -m viz_prediction [DATASET_PATH]
 ```
+
+# Output
 Original image:
 
 ![visualization](vaild_data.png)
