@@ -24,7 +24,7 @@ Visualize the dense dataset:
 ```python
 %run -m homework.utils
 ```
-![dense data](dense_data.png)
+![dense data](dense_dataset.png)
 
 # Output
 Loss and Accuracy during training (CNN):
@@ -39,4 +39,14 @@ Visualize the model's prediction:
 ```python
 %run -m viz_prediction [DATASET_PATH]
 ```
-![visualization](visualize_prediction.png)
+Original image:
+
+![visualization](vaild_data.png)
+
+Image label:
+
+![visualization](vaild_label.png)
+
+Image label predict:
+
+![visualization](vaild_pred.png)
