@@ -12,7 +12,7 @@ Download the dataset and unzip it using the following code:
 !unzip -q supertux_segmentation_trainval.zip
 ```
 
-# Training Output
+# Output
 Loss and Accuracy during training:
 
 ![train](training.png)
