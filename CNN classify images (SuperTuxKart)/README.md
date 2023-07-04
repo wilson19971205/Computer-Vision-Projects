@@ -21,3 +21,4 @@ Visualize the model's prediction:
 ```python
 !python3 -m viz_prediction [DATASET_PATH]
 ```
+![visualization](visualize_prediction.png)
