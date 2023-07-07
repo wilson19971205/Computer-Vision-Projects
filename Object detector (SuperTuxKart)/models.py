@@ -20,7 +20,7 @@ def extract_peak(heatmap, max_pool_ks=7, min_score=-5, max_det=100):
     valid_output, i = torch.topk(valid_output, max_det)
     return list(zip(valid_output, valid_indices[i] % cols, valid_indices[i] // cols))
 
-# Homework 3 master solution
+
 class CNNClassifier(torch.nn.Module):
     class Block(torch.nn.Module):
         def __init__(self, n_input, n_output, kernel_size=3, stride=2):
