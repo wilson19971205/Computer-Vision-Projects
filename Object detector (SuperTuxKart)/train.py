@@ -17,10 +17,6 @@ def train(args):
         train_logger = tb.SummaryWriter(path.join(args.log_dir, 'train'), flush_secs=1)
         valid_logger = tb.SummaryWriter(path.join(args.log_dir, 'valid'), flush_secs=1)
 
-    """
-    Your code here, modify your HW3 code
-    Hint: Use the log function below to debug and visualize your model
-    """
 
     device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
     model = Detector().to(device)
