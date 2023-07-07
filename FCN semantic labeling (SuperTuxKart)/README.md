@@ -22,7 +22,7 @@ Download the dataset and unzip it using the following code:
 
 Visualize the dense dataset:
 ```python
-%run -m homework.utils
+%run -m utils
 ```
 ![dense data](dense_dataset.png)
 
