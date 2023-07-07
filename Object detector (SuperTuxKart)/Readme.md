@@ -26,4 +26,4 @@ True label:
 ![image](label.png)
 
 Object detect prediction:
-![image](pred.png)
+![image](predict.png)
