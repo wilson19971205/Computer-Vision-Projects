@@ -102,18 +102,6 @@ class Detector(torch.nn.Module):
         return self.classifier(z)
 
     def detect(self, image):
-        """
-            Your code here.
-            Implement object detection here.
-            @image: 3 x H x W image
-            @return: Three list of detections [(score, cx, cy, w/2, h/2), ...], one per class,
-                    return no more than 30 detections per image per class. You only need to predict width and height
-                    for extra credit. If you do not predict an object size, return w=0, h=0.
-            Hint: Use extract_peak here
-            Hint: Make sure to return three python lists of tuples of (float, int, int, float, float) and not a pytorch
-                  scalar. Otherwise pytorch might keep a computation graph in the background and your program will run
-                  out of memory.   
-        """
         detections = []
         for heatmap in self(image[None]).squeeze(0):
           peaks = []
