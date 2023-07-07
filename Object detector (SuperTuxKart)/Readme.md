@@ -17,6 +17,8 @@ The "ToHeatmap" transform changes the label of the image to the following:
 ![image](transform.png)
 
 # Output
+Red = Kart, Green = Bomb, Blue = item
+
 Original image:
 ![image](image.png)
 
