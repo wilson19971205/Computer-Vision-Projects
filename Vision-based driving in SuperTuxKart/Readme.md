@@ -24,6 +24,6 @@ pystk.Action.brake: a boolean indicator for braking
 pystk.Action.drift: a special action that makes the kart drift, useful for tight turns
 pystk.Action.nitro: burns nitro for fast acceleration
 
-This is how it looks like:
-https://github.com/wilson19971205/Computer-Vision-Projects/assets/43212302/75b63b53-ca52-4cdf-9424-5abee7698c1e
+This is what it looks like:
+![video](video/zengarden.mp4)
 
