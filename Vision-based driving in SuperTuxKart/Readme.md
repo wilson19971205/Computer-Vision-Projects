@@ -9,5 +9,5 @@ Use the following code to install SuperTuxKart:
 %pip install -U PySuperTuxKart
 ```
 
-# Controller algorithm
+### Controller algorithm
 Inputting the aim point on the center of the track 15 meters away from the kart.
