@@ -17,7 +17,7 @@ Collecting data from 6 tracks.
 Zen garden, Lighthouse, Hacienda, Snowtuxpeak, Cornfield crossing and Scotland.
 
 ### Controller
-These of the hyper-parameters of the controller.
+These of the hyper-parameters of the controller:
 
 pystk.Action.steer: the steering angle of the kart normalized to -1 ... 1
 
