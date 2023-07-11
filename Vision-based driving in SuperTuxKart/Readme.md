@@ -25,5 +25,8 @@ pystk.Action.drift: a special action that makes the kart drift, useful for tight
 pystk.Action.nitro: burns nitro for fast acceleration
 
 This is what it looks like:
-![video](video/zengarden.mp4)
+
+https://github.com/wilson19971205/Computer-Vision-Projects/assets/43212302/fb92092b-e3c2-4bdb-b698-1fe2ce08975f
+
+
 
