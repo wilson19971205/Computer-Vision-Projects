@@ -32,9 +32,11 @@ https://github.com/wilson19971205/Computer-Vision-Projects/assets/43212302/fb920
 https://github.com/wilson19971205/Computer-Vision-Projects/assets/43212302/d876e968-5cb6-4c93-9bfc-27e401d8b686
 
 # Vision-Based Driving
-The red circle in the video below is the true aim point on the center of the track 15 meters away from the kart.
-The green circle is the predicted point.
-The blue circle is the position of the kart.
+The <span style="color: green"> red </span> circle in the video below is the true aim point on the center of the track 15 meters away from the kart.
+
+The <span style="color: green"> green </span> circle is the predicted point.
+
+The <span style="color: green"> blue </span> circle is the position of the kart.
 
 The two videos below demonstrate the vision-driving under the track in train data:
 
