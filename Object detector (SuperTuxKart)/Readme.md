@@ -12,7 +12,7 @@ Download the dataset and unzip it using the following code:
 !unzip -q supertux_classification_trainval.zip
 !unzip -q supertux_segmentation_trainval.zip
 ```
-The "ToHeatmap" transform changes the label of the image to the following:
+The "ToHeatmap" transform changes the label of the image to points:
 
 ![image](transform.png)
 
@@ -26,4 +26,4 @@ True label:
 ![image](label.png)
 
 Object detect prediction:
-![image](pred.png)
+![image](predict.png)
