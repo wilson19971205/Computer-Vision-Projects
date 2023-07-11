@@ -18,12 +18,16 @@ Zen garden, Lighthouse, Hacienda, Snowtuxpeak, Cornfield crossing and Scotland.
 
 ### Controller
 These of the hyper-parameters of the controller.
-pystk.Action.steer: the steering angle of the kart normalized to -1 ... 1
-pystk.Action.acceleration: the acceleration of the kart normalized to 0 ... 1
-pystk.Action.brake: a boolean indicator for braking
-pystk.Action.drift: a special action that makes the kart drift, useful for tight turns
-pystk.Action.nitro: burns nitro for fast acceleration
 
+pystk.Action.steer: the steering angle of the kart normalized to -1 ... 1
+
+pystk.Action.acceleration: the acceleration of the kart normalized to 0 ... 1
+
+pystk.Action.brake: a boolean indicator for braking
+
+pystk.Action.drift: a special action that makes the kart drift, useful for tight turns
+
+pystk.Action.nitro: burns nitro for fast acceleration
 
 This is what it looks like:
 
