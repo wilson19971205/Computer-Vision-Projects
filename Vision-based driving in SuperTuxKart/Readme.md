@@ -37,10 +37,13 @@ The green circle is the predicted point.
 The blue circle is the position of the kart.
 
 The two videos below demonstrate the vision-driving under the track in train data:
+
 https://github.com/wilson19971205/Computer-Vision-Projects/assets/43212302/31e9ca6c-42bd-4397-8bf2-47448d724dc0
+
 https://github.com/wilson19971205/Computer-Vision-Projects/assets/43212302/fbb030aa-d4da-429e-ad31-87ca7242d3d1
 
 
 This one is the track that the model hadn't seen before:
+
 https://github.com/wilson19971205/Computer-Vision-Projects/assets/43212302/5073d040-49dd-4e7f-b1a8-37abc1eb4cea
 
