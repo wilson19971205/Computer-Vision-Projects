@@ -11,3 +11,4 @@ Use the following code to install SuperTuxKart:
 
 ### Controller algorithm
 Inputting the aim point on the center of the track 15 meters away from the kart.
+![image](video/aim_point.png)
