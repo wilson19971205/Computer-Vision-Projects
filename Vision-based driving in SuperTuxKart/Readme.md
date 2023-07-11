@@ -9,7 +9,21 @@ Use the following code to install SuperTuxKart:
 %pip install -U PySuperTuxKart
 ```
 
-### Controller algorithm
-Inputting the aim point on the center of the track 15 meters away from the kart.
+Gathering the images that aim point on the center of the track 15 meters away from the kart, as shown below.
 
 ![image](video/aim_point.png)
+
+Collecting data from 6 tracks. 
+Zen garden, Lighthouse, Hacienda, Snowtuxpeak, Cornfield crossing and Scotland.
+
+### Controller
+These of the hyper-parameters of the controller.
+pystk.Action.steer: the steering angle of the kart normalized to -1 ... 1
+pystk.Action.acceleration: the acceleration of the kart normalized to 0 ... 1
+pystk.Action.brake: a boolean indicator for braking
+pystk.Action.drift: a special action that makes the kart drift, useful for tight turns
+pystk.Action.nitro: burns nitro for fast acceleration
+
+This is how it looks like:
+https://github.com/wilson19971205/Computer-Vision-Projects/assets/43212302/75b63b53-ca52-4cdf-9424-5abee7698c1e
+
